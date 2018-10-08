@@ -35,6 +35,92 @@
               </div>
               </li>
               <!--- Hotel datepicker -->
-              
+              <li id="twidget-hotel-datepicker" class="twidget-hotel-dates input-daterange input-group clearfix">
+                ::before
+                <div class="twidget-start-date twidget-form-item">
+                  <div class="twidget-input-box">
+                    <label for="checkIn" class>Check In</label>
+                    <input type="text" name="checkIn" placeholder="Check In" value="2018-10-15" class>
+                    <div class="twidget-icon-cal"></div>
+                    <span class="twidget-date-text twidget-date-checkin">15 october, mo</span>
+                  </div>
+                </div>
+                <div class="twidget-end-date twidget-form-item">
+                  <div class="twidget-input-box">
+                    <label for="checkOut" class>Check Out</label>
+                    <input type="text" name="checkOut" placeholder="Check Out" value="2018-10-22" class>
+                    <div class="twidget-icon-cal"></div>
+                    <span class="twidget-date-text twidget-date-checkout">22 october, mo</span>
+                  </div>
+                </div>
+                ::after
+              </li>
+              <!--- Hotel quests selection -->
+              <li class="twidget-hotel-guest">
+                <label for="twidget-guest-detail" class>Guests</label>
+                <div class="twidget-guest-detail">
+                  <div class="twidget-guest-no">
+                    <span id="twidget-g-no">1</span>
+                    <span class="twidget-guest-caption">guest</span>
+                  </div>
+                  ::after
+                </div>
+                <div id="twidget-guest-form" style="display: none;">
+                  <div class="twidget-passenger-form-wrapper">
+                    <ul class="twidget-age-group">
+                      <li class="animated fadeInUp">
+                        <div class="twidget-cell twidget-age-name">Adults</div>
+                        <div class="twidget-cell twidget-age-select">
+                          <span class="twidget-dec twidget-q-btn" date-age="adults-g">-</span>
+                          <span class="twidget-num">
+                            <input type="text" name="adults" value="1" class="animated fadeInUp">
+                           </span
+                            <span class="twidget-inc twidget-q-btn" data-age="adults-g">+</span>
+                        </div>
+                      </li>
+                      <li class="animated fadeInUp">
+                        <div class="twidget-cell twidget-age-name">
+                          "Children to 17"
+                          <br>
+                          "years"
+                        </div>
+                        <div class="twidget-cell twidget-age-select">
+                          <span class="twidget-dec twidget-q-btn" data-age="children-q">-</span>
+                          <span class="twidget-num">
+                            <input type="text" name="children_sum" value="0" class="animated fadeInUp">
+                          </span>
+                          <span class="twidget-inc twidget-q-btn" data-age="children-q">+</span>
+                        </div>
+                      </li>
+                    </ul>
+                    <div class="twidget-pas-class" style="display: none;">
+                      <ul class="twidget-age-group"></ul>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <!--- partner marker -->
+              <input type="hidden" name="marker" value="78606" class="animated fadeInUp">
+              <!--- hotel search language -->
+              <input type="hidden" name="language" value="en" class="animated fadeInUp">
+              <!--- submit button -->
+              <li class="twidget-submit-button">
+                <button type="submit" class>Search</button>
+              </li>
+              ::after
+             </ul>
+          </form>
+          <div class="twidget-tab-bottom"></div>
+      </div>
+      <!--- end tab2 -->
+    </div>
+    <!--- end tab content -->
+  </div>
+  <!--- end widget -->
+</div>
+<br>
+<br>
+<!--- end of search -->
+                       
            
               
