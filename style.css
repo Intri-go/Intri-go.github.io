@@ -35,7 +35,7 @@ div, span, p, ol, ul, li, table, tbody, tfoot, thead, tr, th, td{
 .twidget-tab-links a{color:#fff; font-size:16px; font-weight:600; display:block; text-transform:uppercase; padding:0 20px 0 50px; line-height:51px;}
 
 /*tab content*/
-.twidget-tab-content{padding:20px 15px 0; background-color:#00b1dd; border-radius:0 3px 3px 3px; }
+.twidget-tab-content{padding:20px 15px 0; background-color:#07f412; border-radius:0 3px 3px 3px; }
 .twidget-tab-content input[type="text"]{line-height:50px; height:50px; padding: 0 37px 0 12px; overflow: hidden; text-overflow: ellipsis;}
 .twidget-tab-content .twidget-tab{display:none;}
 .twidget-tab-content .twidget-tab.active{display:block;}
