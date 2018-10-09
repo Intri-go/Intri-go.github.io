@@ -298,7 +298,7 @@
 .modal-content {
 	background-color: #f4f4f4;
 	margin: 8% auto;
-	width: 50%;
+	width: 65%;
 	box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17);
 	animation-name: modalopen;
 	animation-duration: 1s;
