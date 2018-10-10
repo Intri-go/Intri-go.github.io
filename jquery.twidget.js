@@ -355,8 +355,8 @@
             $.fn.datepicker.dates['en'].daysMin = ["<span style='color: red;'>Su</span>","Mo","Tu","We","Th","Fr","<span style='color: red;'>Sa</span>"];
 
             $.fn.datepicker.dates['ru'] = {
-                days: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-                daysShort: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+                days: ["Sunnuntai", "Maanantai", "Tiistai", "Keskiviikko", "Torstai", "Perjantai", "Launantai"],
+                daysShort: ["Sun", "Maa", "Tii", "Kes", "Tor", "Per", "Lau"],
                 daysMin:["<span style='color: red;'>Вс</span>","Пн","Вт","Ср","Чт","Пт","<span style='color: red;'>Сб</span>"],
                 months:["Январь","Февраль","Март","Апрель","Май","Июнь","Июль","Август","Сентябрь","Октябрь","Ноябрь","Декабрь"],
                 monthsShort: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
